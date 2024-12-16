@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Сойкина Кристина</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">Сойкина Кристина</div>
+
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="https://t.me/Hey_Chris_Detka" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:soykina222@yandex.ru">soykina222@yandex.ru</a>
+        </div>
+        <div class="entry">
+          <a href="https://vk.com/yaskazalda" target="_blank">vk</a>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">чем занимаюсь</div>
+      <div class="entry">
+        <a href="https://zooekb.ru//" target="_blank"> волонтёрствую </a>
+         <img alt="Тургояк" height="150" width="250" src="Бутузя.jpg">
+      </div>
+      <div class="entry">
+        <a
+          href="https://taplink.cc/be_loved_pet"
+          target="_blank"
+        >
+          делаю адресники для питомцев
+        </a>
+         <img alt="адресник" height="150" width="250" src="адресник.jpg">
+      </div>
+      <div class="entry">
+        <img alt="фотка с поля" height="250" width="200" src="лето2024.jpg">
+          играю в футбол
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
